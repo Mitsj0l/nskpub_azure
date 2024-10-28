@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "virtualMachineName": {
+      "value": "ZTNAPUB"
+    },
+    "adminUsername": {
+      "value": "ubuntu"
+    },
+    "sshPublicKey": {
+      "value": "ssh-rsa yourkey_xyz"
+    },
+    "virtualMachineSize": {
+      "value": "Standard_D2s_v3"
+    },
+    "osDiskType": {
+      "value": "Premium_LRS"
+    },
+    "osDiskSizeGiB": {
+      "value": 64
+    },
+    "existingVNetName": {
+      "value": "azure_xyz"
+    },
+    "existingVNetResourceGroup": {
+      "value": "nsk"
+    },
+    "existingSubnetName": {
+      "value": "default"
+    },
+    "existingNsgName": {
+      "value": "azure_xyz"
+    },
+    "existingNsgResourceGroup": {
+      "value": "azure_xyz"
+    },
+    "tenantUrl": {
+      "value": "yourtenant.goskope.com"
+    },
+    "apiToken": {
+      "value": "nsk_key"
+    },
+    "pubTag": {
+      "value": ""
+    },
+    "pubUpgrade": {
+      "value": "1"
+    }
+  }
+}
