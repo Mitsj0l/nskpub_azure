@@ -93,8 +93,8 @@ Update the parameters file (`main.parameters.json`):
 ```bash
 az deployment group create \
   --resource-group your-rg \
-  --template-file main.bicep \
-  --parameters @main.parameters.json
+  --template-file nsk_deployment.bicep \
+  --parameters @nsk_deployment.parameters.json
 ```
 
 ### 5. Access Publisher VM
