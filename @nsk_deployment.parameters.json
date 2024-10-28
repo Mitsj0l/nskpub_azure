@@ -24,7 +24,7 @@
       "value": "azure_xyz"
     },
     "existingVNetResourceGroup": {
-      "value": "nsk"
+      "value": "azure_xyz"
     },
     "existingSubnetName": {
       "value": "default"
